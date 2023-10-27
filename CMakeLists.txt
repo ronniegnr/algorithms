@@ -4,4 +4,5 @@ project(algorithms)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(algorithms
-        bubble_sort.cpp)
+        bubble_sort.cpp
+        selection_sort.cpp)
