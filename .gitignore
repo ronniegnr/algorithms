@@ -1,0 +1,31 @@
+# Ignore build artifacts and compiled binaries
+build/
+*.o
+*.out
+*.exe
+*.dll
+
+# Ignore generated files
+compile_commands.json
+CMakeFiles/
+CMakeScripts/
+CMakeCache.txt
+
+# Ignore editor-specific files and directories
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+
+# Ignore operating system generated files
+Thumbs.db
+.DS_Store
+
+# Ignore temporary or backup files
+*.swp
+*~
+
+# Ignore project-specific configurations or secrets
+config.ini
+secrets.conf
